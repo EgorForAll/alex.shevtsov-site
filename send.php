@@ -35,6 +35,7 @@ $mail->Port = 465; // TCP port to connect to / этот порт может от
 
 $mail->setFrom('top-7.test@mail.ru'); // от кого будет уходить письмо?
 $mail->addAddress('eia.web.ss@gmail.com', 'Admin');
+$mail->addAddress('eia.web22@gmail.com', 'Director');
 
 $mail->Subject = 'Заявка с сайта ALEX.SHEVTSOV';
 $mail->Body = $body;
